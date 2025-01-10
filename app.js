@@ -11,14 +11,14 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.status(200).json({
     status: true,
-    service: "Backend Project",
+    service: "Backend Project Starter Kit",
   });
 });
 
 app.use("/api/", mainRoutes);
 
 app.get("*", (req, res) => {
-  res.redirect("/api/not-found.html");
+  res.redirect("/api/error.html");
 });
 
 const PORT = process.env.PORT || 8800;
