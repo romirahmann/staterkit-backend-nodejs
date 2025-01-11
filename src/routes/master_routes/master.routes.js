@@ -3,10 +3,10 @@ const router = express.Router();
 const Joi = require("joi");
 
 const routesData = require("./routes.data.json");
-const TestController = require("../../controllers/master_controller/testController");
+const UserController = require("../../controllers/master_controller/UserController");
 
 const controllers = {
-  TestController,
+  UserController,
 };
 
 // Definisikan skema validasi untuk setiap rute

@@ -1,7 +1,7 @@
 [
   {
-    "path": "/testing",
-    "method": "get",
-    "controller": "TestController.testing"
+    "path": "/register",
+    "method": "post",
+    "controller": "UserController.register"
   }
 ]
