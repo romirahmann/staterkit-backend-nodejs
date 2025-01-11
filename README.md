@@ -17,9 +17,10 @@ Ikuti langkah-langkah di bawah ini untuk memulai menggunakan project ini:
 
 Clone repository ke dalam folder lokal Anda:
 
-````bash
+```bash
 git clone https://github.com/romirahmann/staterkit-backend-nodejs.git
-cd repository-name```
+cd repository-name
+```
 
 ### 2. Install Dependencies
 
@@ -27,7 +28,7 @@ Instal semua dependencies yang diperlukan dengan menjalankan perintah berikut:
 
 ```bash
 npm install
-````
+```
 
 ### 3. Konfigurasi Environment Variables
 
