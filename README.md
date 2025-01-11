@@ -35,10 +35,6 @@ npm install
 Buat file `.env` di direktori root proyek Anda, dan tambahkan variabel-variabel berikut (sesuaikan dengan kebutuhan Anda):
 
 ```env
-PORT=3000
-DATABASE_URL=your-database-url
-SECRET_KEY=
-
 DB_HOST = your-database-host
 DB_PORT = your-database-port
 DB_USER = your-database-user
