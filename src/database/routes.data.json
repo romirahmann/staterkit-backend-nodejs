@@ -1,0 +1,7 @@
+[
+  {
+    "path": "/testing",
+    "method": "get",
+    "controller": "TestController.testing"
+  }
+]

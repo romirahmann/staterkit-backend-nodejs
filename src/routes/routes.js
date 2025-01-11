@@ -14,8 +14,6 @@ router.get("/error", function (req, res) {
 
 router.use("/auth/", auth_routes);
 // router.use("/master/", accessControl, masterRoutes);
-router.use("/master/", () => {
-  console.log("api/master sucess");
-});
+router.use("/master/", masterRoutes);
 
 module.exports = router;

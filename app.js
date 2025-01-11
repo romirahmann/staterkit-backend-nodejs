@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 app.use("/api/", mainRoutes);
 
 app.get("*", (req, res) => {
-  res.redirect("/api/error.html");
+  res.redirect("/api/error");
 });
 
 const PORT = process.env.PORT || 8800;
